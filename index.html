@@ -1,12 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>G-trainee</title>
-</head>
-<body>
+    <!-- import CSS Bootstrap from local -->
+    <link
+      rel="stylesheet"
+      href="./assets/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css"
+    />
+    <!-- import JS Bootstrap from local -->
+    <script src="./assets/bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg bg-light rounded fixed-top"
+      aria-label="Thirteenth navbar example"
+    >
+    <!-- Container fluid -->
+      <div class="container-fluid">
+        <!-- Btn Burger Menu -->
+        <button
+          class="navbar-toggler ms-auto"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarsExample11"
+          aria-controls="navbarsExample11"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+        <!-- Burger Menu icon -->
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Block Navbar menu -->
+        <div class="collapse navbar-collapse d-lg-flex" id="navbarsExample11">
+            <!-- Block for grid col-3 -->
+          <div class="col-lg-3 me-0"></div>
+          <!-- Block for grid col-6 Menu list -->
+          <ul class="navbar-nav col-lg-6 justify-content-lg-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+          </ul>
+          <!-- Block for grid col-3 End Button -->
+          <div class="d-lg-flex col-lg-3 justify-content-lg-end">
+            <button class="btn btn-primary me-3">Register</button>
+            <button class="btn btn-primary">Login</button>
+          </div>
+          <!-- End Block for grid col-3 End Button -->
+        </div>
+        <!-- End Block Navbar menu -->
+      </div>
+      <!-- End Container fluid -->
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Block Main -->
+    <main></main>
+    <!-- End Block Main -->
     
-</body>
+    <!-- Footer -->
+    <footer></footer>
+    <!-- End Footer -->
+  </body>
 </html>
