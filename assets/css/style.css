@@ -41,23 +41,12 @@ body {
 }
 
 /* Review Section */
-.my-card{
-    width: 100%;
-    border-radius: 10px;
-    background-color: var(--green-blue);
-    border: 1px solid #84B9C9;
-    box-shadow: 4px 3px 13px 1px #A5E8FC;
+.section-review .card {
+  background-color: var(--green-blue);
+  border: 1px solid #84b9c9;
+  box-shadow: 4px 3px 13px 1px #a5e8fc;
 }
-.my-card-header{
-    width: 320px;
-    min-height: 320px;
-    max-height: 320px;
-    border-radius: 50%;
-    overflow: hidden;
-}
-.my-card-header img{
-    width: 100%;
-}
-.my-card-content{
-
+.card .card-img-top {
+  height: 140px;
+  width: 140px;
 }
