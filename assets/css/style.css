@@ -6,11 +6,38 @@
 --blue-soft: #A5E8FC;
 --white: #FFFFFF; */
 @import "./root.css";
-
-body {
+/* 
+  Base Setup 
+*/
+/* Background */
+.my-bg-primary{
   background-color: var(--green-blue);
 }
-
+.my-bg-secondary{
+  background-color: var(--green-blue-soft);
+}
+.my-bg-blue{
+  background-color: var(--blue);
+}
+.my-bg-blue-soft{
+  background-color: var(--blue-soft);
+}
+/* Text color */
+.my-text-primary{
+  background-color: var(--green-blue);
+}
+.my-text-secondary{
+  background-color: var(--green-blue-soft);
+}
+.my-text-blue{
+  background-color: var(--blue);
+}
+.my-text-blue-soft{
+  background-color: var(--blue-soft);
+}
+/* 
+  End Base Setup 
+*/
 /* 
     Import & Config
 */
@@ -42,11 +69,40 @@ body {
 
 /* Review Section */
 .section-review .card {
-  background-color: var(--green-blue);
   border: 1px solid #84b9c9;
   box-shadow: 4px 3px 13px 1px #a5e8fc;
 }
 .card .card-img-top {
   height: 140px;
   width: 140px;
+}
+
+/* What we do section */
+.section-what-we-do{
+  position: relative;
+  width: 100%;
+  overflow-x: hidden;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.section-what-we-do::-webkit-scrollbar {
+  display: none;
+}
+.liner-end{
+  content: ' ';
+  position: absolute;
+  width: 100%;
+  height: 296px;
+  background-color: var(--blue-soft);
+  left: 0;
+  bottom: -80px;
+  transform: skew(0deg, 10deg);
+}
+.liner-end::before{
+  content: ' ';
+  position: absolute;
+  width: 100%;
+  height: 41.19px;
+  background-color: var(--blue-soft);
+  left: 0;
+  bottom: 335px;
 }
