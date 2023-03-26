@@ -9,6 +9,12 @@
 /* 
   Base Setup 
 */
+* {
+  font-family: 'Kanit', sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+}
 /* Background */
 .my-bg-primary {
   background-color: var(--green-blue);
@@ -42,6 +48,26 @@
     Import & Config
 */
 
+/* 
+  CSS Site
+*/
+/* Navbar */
+.my-nav{
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: 0.2s;
+}
+.my-nav .nav-link{
+  color: #fff;
+  transition: 0.2s;
+}
+.my-nav.my-bg-white{
+  background-color: #fff;
+  transition: 0.2s;
+}
+.my-nav.my-bg-white .nav-link{
+  color: #000;
+  transition: 0.2s;
+}
 /* Heroes Section */
 .section-heroes {
   position: relative;
@@ -107,20 +133,20 @@
 }
 
 /* Step by step Section */
-.section-what-we-do{
+.section-step-by-step{
   position: relative;
 }
-.section-what-we-do hr{
+.section-step-by-step hr{
   border-top: 3px solid #13B7CC;
 }
-.section-what-we-do h1 {
+.section-step-by-step h1 {
   text-shadow: 2px 3px 0 #000, 3px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
 }
 .step-line-block {
   display: flex;
   justify-content: space-around;
   position: absolute;
-  top: 165px;
+  top: 175px;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
