@@ -1,283 +1,344 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>G-trainee</title>
-    <!-- import CSS Bootstrap from local -->
-    <link
-      rel="stylesheet"
-      href="./assets/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css"
-    />
-    <!-- import font awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <!-- import my style -->
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <!-- import JS Bootstrap from local -->
-    <script src="./assets/bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.min.js"></script>
-  </head>
-  <body class="my-bg-secondary">
-    <!-- Navbar -->
-    <nav
-      class="navbar navbar-expand-lg my-nav fixed-top"
-      aria-label="Thirteenth navbar example" id="my-nav"
-    >
-      <!-- Container fluid -->
-      <div class="container-fluid">
-        <!-- Btn Burger Menu -->
-        <button
-          class="navbar-toggler ms-auto"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarsExample11"
-          aria-controls="navbarsExample11"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <!-- Burger Menu icon -->
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <!-- Block Navbar menu -->
-        <div class="collapse navbar-collapse d-lg-flex" id="navbarsExample11">
-          <!-- Block for grid col-3 -->
-          <div class="col-lg-3 me-0"></div>
-          <!-- Block for grid col-6 Menu list -->
-          <ul class="navbar-nav col-lg-6 justify-content-lg-center">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Review</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">How to use?</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Dev team</a>
-            </li>
-          </ul>
-          <!-- Block for grid col-3 End Button -->
-          <div class="d-lg-flex col-lg-3 justify-content-lg-end">
-            <button class="btn btn-primary me-3">Register</button>
-            <button class="btn btn-primary">Login</button>
-          </div>
-          <!-- End Block for grid col-3 End Button -->
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>G-trainee</title>
+  <!-- import CSS Bootstrap from local -->
+  <link rel="stylesheet" href="./assets/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css" />
+  <!-- import font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- import my style -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <!-- import JS Bootstrap from local -->
+  <script src="./assets/bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body class="my-bg-secondary">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg my-nav fixed-top" aria-label="Thirteenth navbar example" id="my-nav">
+    <!-- Container fluid -->
+    <div class="container-fluid">
+      <!-- Btn Burger Menu -->
+      <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample11"
+        aria-controls="navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">
+        <!-- Burger Menu icon -->
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Block Navbar menu -->
+      <div class="collapse navbar-collapse d-lg-flex" id="navbarsExample11">
+        <!-- Block for grid col-3 -->
+        <div class="col-lg-3 me-0"></div>
+        <!-- Block for grid col-6 Menu list -->
+        <ul class="navbar-nav col-lg-6 justify-content-lg-center">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Review</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">How to use?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Dev team</a>
+          </li>
+        </ul>
+        <!-- Block for grid col-3 End Button -->
+        <div class="d-lg-flex col-lg-3 justify-content-lg-end">
+          <button class="btn btn-primary me-3">Register</button>
+          <button class="btn btn-primary">Login</button>
         </div>
-        <!-- End Block Navbar menu -->
+        <!-- End Block for grid col-3 End Button -->
       </div>
-      <!-- End Container fluid -->
-    </nav>
-    <!-- End Navbar -->
+      <!-- End Block Navbar menu -->
+    </div>
+    <!-- End Container fluid -->
+  </nav>
+  <!-- End Navbar -->
 
-    <!-- Block Main -->
-    <main>
-      <!-- Heroes Section -->
-      <article class="section-heroes" id="section-heroes">
-        <!-- Heroes content -->
-        <section class="hero-text container">
-          <!-- Logo Image -->
-          <img src="./assets/images/logo-lg.png" alt="g-trainee-logo" />
-          <!-- Heroes Text -->
-          <p class="mt-5">
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout. The point
-            of using Lorem Ipsum is that it has a more-or-less normal
-            distribution of letters, as opposed to using 'Content here, content
-            here', making it look like readable English.
-          </p>
-        </section>
-        <!-- End Heroes content -->
-      </article>
-      <!-- End Heroes Section -->
-      <!-- Reviews Section -->
-      <article class="section-review container text-light pt-5 pb-5" id="section-review">
-        <!-- Reviews Section Title -->
-        <h2 class="text-center pb-5">Review</h2>
-        <!-- Reviews Section content row -->
-        <div class="row">
-          <!-- Reviews Section content col 4 -->
-          <div class="col-md-4 mt-4">
-            <!-- Card Content -->
-            <div class="card my-bg-secondary">
-              <!-- image tumnail -->
-              <img
-                src="https://images.unsplash.com/photo-1616970093071-4b666ea73f79?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
-                class="rounded-circle card-img-top mt-3 mx-auto"
-              />
-              <!-- Card body -->
-              <div class="card-body">
-                <!-- Card title -->
-                <h5 class="card-title text-center">Card title</h5>
-                <!-- Card paragraph -->
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-            </div>
-            <!-- End Card Content -->
-          </div>
-          <!-- End Reviews Section content col 4 -->
-          <!-- Reviews Section content col 4 -->
-          <div class="col-md-4 mt-4">
-            <!-- Card Content -->
-            <div class="card my-bg-secondary">
-              <!-- image tumnail -->
-              <img
-                src="https://images.unsplash.com/photo-1616970093071-4b666ea73f79?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
-                class="rounded-circle card-img-top mt-3 mx-auto"
-              />
-              <!-- Card body -->
-              <div class="card-body">
-                <!-- Card title -->
-                <h5 class="card-title text-center">Card title</h5>
-                <!-- Card paragraph -->
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-            </div>
-            <!-- End Card Content -->
-          </div>
-          <!-- End Reviews Section content col 4 -->
-          <!-- Reviews Section content col 4 -->
-          <div class="col-md-4 mt-4">
-            <!-- Card Content -->
-            <div class="card my-bg-secondary">
-              <!-- image tumnail -->
-              <img
-                src="https://images.unsplash.com/photo-1616970093071-4b666ea73f79?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
-                class="rounded-circle card-img-top mt-3 mx-auto"
-              />
-              <!-- Card body -->
-              <div class="card-body">
-                <!-- Card title -->
-                <h5 class="card-title text-center">Card title</h5>
-                <!-- Card paragraph -->
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-            </div>
-            <!-- End Card Content -->
-          </div>
-          <!-- End Reviews Section content col 4 -->
-        </div>
-      </article>
-      <!-- End Reviews Section -->
-
-      <!-- What We do Section -->
-      <article class="section-what-we-do pt-5 pb-5 container-fluid" id="section-what-we-do">
-        <!-- row -->
-        <div class="row">
-          <!-- col-7 -->
-          <div class="col-7">
+  <!-- Block Main -->
+  <main>
+    <!-- Heroes Section -->
+    <article class="section-heroes" id="section-heroes">
+      <!-- Heroes content -->
+      <section class="hero-text container">
+        <!-- Logo Image -->
+        <img src="./assets/images/logo-lg.png" alt="g-trainee-logo" />
+        <!-- Heroes Text -->
+        <p class="mt-5">
+          It is a long established fact that a reader will be distracted by
+          the readable content of a page when looking at its layout. The point
+          of using Lorem Ipsum is that it has a more-or-less normal
+          distribution of letters, as opposed to using 'Content here, content
+          here', making it look like readable English.
+        </p>
+      </section>
+      <!-- End Heroes content -->
+    </article>
+    <!-- End Heroes Section -->
+    <!-- Reviews Section -->
+    <article class="section-review container text-light pt-5 pb-5" id="section-review">
+      <!-- Reviews Section Title -->
+      <h2 class="text-center pb-5">Review</h2>
+      <!-- Reviews Section content row -->
+      <div class="row">
+        <!-- Reviews Section content col 4 -->
+        <div class="col-md-4 mt-4">
+          <!-- Card Content -->
+          <div class="card my-bg-secondary">
+            <!-- image tumnail -->
             <img
-              src="./assets/images/Group_14.png"
-              alt="prototype-feature"
-              width="100%"
-            />
+              src="https://images.unsplash.com/photo-1616970093071-4b666ea73f79?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+              class="rounded-circle card-img-top mt-3 mx-auto" />
+            <!-- Card body -->
+            <div class="card-body">
+              <!-- Card title -->
+              <h5 class="card-title text-center">Card title</h5>
+              <!-- Card paragraph -->
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
           </div>
-          <!-- end col-7 -->
-          <!-- col-5 -->
-          <div class="col-5">
-            <!-- Header 2 -->
-            <h2>What we do?</h2>
-            <!-- paragraph text-header-3 pading-top 5 -->
-            <p class="h3 pt-5">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
-              reprehenderit obcaecati facere porro voluptatum nostrum, labore
-              quae ea itaque natus tempore fugiat, eum optio, doloremque
-              deserunt autem perspiciatis amet consectetur! Lorem ipsum dolor
-              sit amet consectetur adipisicing elit. In suscipit maxime, maiores
-              sequi dolorem illum ducimus repellendus veritatis repudiandae
-              minus fuga laudantium delectus iure totam voluptatum animi
-              accusantium minima nostrum?
-            </p>
-          </div>
-          <!-- end col-5 -->
+          <!-- End Card Content -->
         </div>
-        <!-- end row -->
-        <div class="liner-end"></div>
-      </article>
-      <!-- End What We do Section -->
-
-      <!-- Step by step section -->
-      <article class="section-step-by-step pt-5 pb-5 container" id="section-step-by-step">
-        <h1 class="text-center text-light mb-5 pb-5">Step by step</h1>
-        <hr class="mt-5" />
-        <div class="step-line-block container mt-5">
-          <!-- circle block -->
-          <div class="step-line-content-block">
-            <!-- circle -->
-            <div>
-              <!-- Icon -->
-              <span><i class="fa-solid fa-user-plus fa-2xl"></i></span>
+        <!-- End Reviews Section content col 4 -->
+        <!-- Reviews Section content col 4 -->
+        <div class="col-md-4 mt-4">
+          <!-- Card Content -->
+          <div class="card my-bg-secondary">
+            <!-- image tumnail -->
+            <img
+              src="https://images.unsplash.com/photo-1616970093071-4b666ea73f79?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+              class="rounded-circle card-img-top mt-3 mx-auto" />
+            <!-- Card body -->
+            <div class="card-body">
+              <!-- Card title -->
+              <h5 class="card-title text-center">Card title</h5>
+              <!-- Card paragraph -->
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
             </div>
-            <!-- text -->
-            <p class="text-center">Sign-up</p>
           </div>
-          <!-- circle block -->
-          <div class="step-line-content-block">
-            <!-- circle -->
-            <div>
-              <!-- Icon -->
-              <span><i class="fa-sharp fa-solid fa-right-to-bracket fa-2xl"></i></span>
-            </div>
-            <!-- text -->
-            <p class="text-center">Sign-in</p>
-          </div>
-          <!-- circle block -->
-          <div class="step-line-content-block">
-            <!-- circle -->
-            <div>
-              <!-- Icon -->
-              <span><i class="fa-solid fa-plus fa-xl"></i></span>
-            </div>
-            <!-- text -->
-            <p class="text-center">Create Activity</p>
-          </div>
-          <!-- circle block -->
-          <div class="step-line-content-block">
-            <!-- circle -->
-            <div>
-              <!-- Icon -->
-              <span><i class="fa-solid fa-check fa-2xl"></i></span>
-            </div>
-            <!-- text -->
-            <p class="text-center">Done</p>
-          </div>
-          <!-- circle block -->
-          <div class="step-line-content-block">
-            <!-- circle -->
-            <div>
-              <!-- Icon -->
-              <span><i class="fa-solid fa-chart-line fa-2xl"></i></span>
-            </div>
-            <!-- text -->
-            <p class="text-center">Analysis</p>
-          </div>
+          <!-- End Card Content -->
         </div>
-      </article>
-      <!-- End Step by step section -->
-    </main>
-    <!-- End Block Main -->
+        <!-- End Reviews Section content col 4 -->
+        <!-- Reviews Section content col 4 -->
+        <div class="col-md-4 mt-4">
+          <!-- Card Content -->
+          <div class="card my-bg-secondary">
+            <!-- image tumnail -->
+            <img
+              src="https://images.unsplash.com/photo-1616970093071-4b666ea73f79?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+              class="rounded-circle card-img-top mt-3 mx-auto" />
+            <!-- Card body -->
+            <div class="card-body">
+              <!-- Card title -->
+              <h5 class="card-title text-center">Card title</h5>
+              <!-- Card paragraph -->
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+          <!-- End Card Content -->
+        </div>
+        <!-- End Reviews Section content col 4 -->
+      </div>
+    </article>
+    <!-- End Reviews Section -->
 
-    <!-- Footer -->
-    <footer></footer>
-    <!-- End Footer -->
-    <script src="./assets/js/script.js"></script>
-  </body>
+    <!-- What We do Section -->
+    <article class="section-what-we-do pt-5 pb-5 container-fluid" id="section-what-we-do">
+      <!-- row -->
+      <div class="row">
+        <!-- col-7 -->
+        <div class="col-7">
+          <img src="./assets/images/Group_14.png" alt="prototype-feature" width="100%" />
+        </div>
+        <!-- end col-7 -->
+        <!-- col-5 -->
+        <div class="col-5">
+          <!-- Header 2 -->
+          <h2>What we do?</h2>
+          <!-- paragraph text-header-3 pading-top 5 -->
+          <p class="h3 pt-5">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+            reprehenderit obcaecati facere porro voluptatum nostrum, labore
+            quae ea itaque natus tempore fugiat, eum optio, doloremque
+            deserunt autem perspiciatis amet consectetur! Lorem ipsum dolor
+            sit amet consectetur adipisicing elit. In suscipit maxime, maiores
+            sequi dolorem illum ducimus repellendus veritatis repudiandae
+            minus fuga laudantium delectus iure totam voluptatum animi
+            accusantium minima nostrum?
+          </p>
+        </div>
+        <!-- end col-5 -->
+      </div>
+      <!-- end row -->
+      <div class="liner-end"></div>
+    </article>
+    <!-- End What We do Section -->
+
+    <!-- Step by step section -->
+    <article class="section-step-by-step pt-5 pb-5 container" id="section-step-by-step">
+      <h1 class="text-center text-light mb-5 pb-5">Step by step</h1>
+      <hr class="mt-5" />
+      <div class="step-line-block container mt-5">
+        <!-- circle block -->
+        <div class="step-line-content-block">
+          <!-- circle -->
+          <div>
+            <!-- Icon -->
+            <span><i class="fa-solid fa-user-plus fa-2xl"></i></span>
+          </div>
+          <!-- text -->
+          <p class="text-center">Sign-up</p>
+        </div>
+        <!-- circle block -->
+        <div class="step-line-content-block">
+          <!-- circle -->
+          <div>
+            <!-- Icon -->
+            <span><i class="fa-sharp fa-solid fa-right-to-bracket fa-2xl"></i></span>
+          </div>
+          <!-- text -->
+          <p class="text-center">Sign-in</p>
+        </div>
+        <!-- circle block -->
+        <div class="step-line-content-block">
+          <!-- circle -->
+          <div>
+            <!-- Icon -->
+            <span><i class="fa-solid fa-plus fa-xl"></i></span>
+          </div>
+          <!-- text -->
+          <p class="text-center">Create Activity</p>
+        </div>
+        <!-- circle block -->
+        <div class="step-line-content-block">
+          <!-- circle -->
+          <div>
+            <!-- Icon -->
+            <span><i class="fa-solid fa-check fa-2xl"></i></span>
+          </div>
+          <!-- text -->
+          <p class="text-center">Done</p>
+        </div>
+        <!-- circle block -->
+        <div class="step-line-content-block">
+          <!-- circle -->
+          <div>
+            <!-- Icon -->
+            <span><i class="fa-solid fa-chart-line fa-2xl"></i></span>
+          </div>
+          <!-- text -->
+          <p class="text-center">Analysis</p>
+        </div>
+      </div>
+    </article>
+    <!-- End Step by step section -->
+
+    <!-- add jenniecard by pang-->
+    <article class="section-review container text-light pt-5 pb-5 mb-5" id="section-review" >
+      <div class="container">
+        <div class="col-sm">
+          <!--add card jennie1-->
+          <div class="row">
+          <h2 class="text-center pb-5">Dev Team</h2>
+          <div class="row">
+            <!-- Reviews Section content col 4 -->
+            <div class="col-md-4 mt-4">
+              <!-- Card Content -->
+              <div class="card my-bg-secondary">
+                <!-- image tumnail -->
+                <img
+                  src="https://www.fashiongonerogue.com/wp-content/uploads/2022/08/Jennie-Calvin-Klein-Fall-2022-Campaign01.jpg"
+                  class="rounded-circle card-img-top mt-3 mx-auto" />
+                <!-- Card body -->
+                <div class="card-body">
+                  <!-- Card title -->
+                  <h5 class="card-title text-center">Card title</h5>
+                  <!-- Card paragraph -->
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make up
+                    the bulk of the card's content.
+                  </p>
+                </div>
+              </div>
+              <!-- End Card Content -->
+            </div>
+
+            <!--add card jennie2-->
+              <!-- Reviews Section content col 4 -->
+              <div class="col-md-4 mt-4">
+                <!-- Card Content -->
+                <div class="card my-bg-secondary">
+                  <!-- image tumnail -->
+                  <img
+                    src="https://www.fashiongonerogue.com/wp-content/uploads/2022/08/Jennie-Calvin-Klein-Fall-2022-Campaign01.jpg"
+                    class="rounded-circle card-img-top mt-3 mx-auto" />
+                  <!-- Card body -->
+                  <div class="card-body">
+                    <!-- Card title -->
+                    <h5 class="card-title text-center">Card title</h5>
+                    <!-- Card paragraph -->
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make up
+                      the bulk of the card's content.
+                    </p>
+                  </div>
+                </div>
+                <!-- End Card Content -->
+              </div>
+
+              <!--add card jennie3-->
+              
+                <!-- Reviews Section content col 4 -->
+                <div class="col-md-4 mt-4">
+                  <!-- Card Content -->
+                  <div class="card my-bg-secondary">
+                    <!-- image tumnail -->
+                    <img
+                      src="https://www.fashiongonerogue.com/wp-content/uploads/2022/08/Jennie-Calvin-Klein-Fall-2022-Campaign01.jpg"
+                      class="rounded-circle card-img-top mt-3 mx-auto" />
+                    <!-- Card body -->
+                    <div class="card-body">
+                      <!-- Card title -->
+                      <h5 class="card-title text-center">Card title</h5>
+                      <!-- Card paragraph -->
+                      <p class="card-text">
+                        Some quick example text to build on the card title and make up
+                        the bulk of the card's content.
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- End Card Content -->
+                </div>
+            </div>
+          </div>
+    </article>
+  </main>
+  <!-- End Block Main -->
+
+  <!-- Footer -->
+  <footer></footer>
+
+  <!-- End Footer -->
+  <script src="./assets/js/script.js"></script>
+</body>
+
 </html>
