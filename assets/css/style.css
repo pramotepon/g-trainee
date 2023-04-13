@@ -68,6 +68,30 @@ html{
   color: #000;
   transition: 0.2s;
 }
+.my-nav .my-nav-btn{
+  background-color: none;
+  color: white;
+  border: 1px solid #ffffff;
+  transition: 0.2s;
+}
+.my-nav.my-bg-white .my-nav-btn{
+  background-color: none;
+  color: black;
+  border: 1px solid #000000;
+  transition: 0.2s;
+}
+.my-nav .my-nav-btn:hover{
+  background-color: #ffffff;
+  color: black;
+  border: 1px solid #000000;
+  transition: 0.2s;
+}
+.my-nav.my-bg-white .my-nav-btn:hover{
+  background-color: #000000;
+  color: white;
+  border: 1px solid #000000;
+  transition: 0.2s;
+}
 /* Heroes Section */
 .section-heroes {
   position: relative;
@@ -170,4 +194,20 @@ html{
 .step-line-content-block p{
   color: #13B7CC;
   max-width: 75px;
+}
+
+@media only screen and (max-width: 992px) {
+  .my-nav{
+    background-color: #fff;
+  }
+  .my-nav .nav-link{
+    color: #000000;
+    transition: 0.2s;
+  }
+  .my-nav .my-nav-btn{
+    background-color: none;
+    color: black;
+    border: 1px solid #000000;
+    transition: 0.2s;
+  }
 }
