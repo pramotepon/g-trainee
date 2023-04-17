@@ -1,0 +1,25 @@
+body {
+  background-color: #415b63;
+}
+.block-center-h-v {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card-auth {
+  width: 60%;
+  background-color: #84b9c9;
+  border-radius: 15px;
+  box-shadow: 5px 5px 20px #000000;
+}
+.my-btn {
+  background-color: #a5e8fc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 7px #000000;
+  transition: 0.2s;
+}
+.my-btn:hover {
+  box-shadow: 0 0 0 #000000;
+  transition: 0.2s;
+}
