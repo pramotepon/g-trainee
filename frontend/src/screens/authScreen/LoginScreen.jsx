@@ -17,7 +17,7 @@ function LoginScreen() {
                 <button type="button" className="btn my-btn">Login</button>
             </div>
             <div className='pt-5'>
-                <p>Don't have an account <Link to={'/register'}>Sign up</Link></p>
+                <p>Don't have an account <Link to={'/register'}>Sign ups</Link></p>
             </div>
         </AuthLayout>
     )
