@@ -1,5 +1,5 @@
 import React from 'react'
-import AuthLayout from '../../layouts/authLayout/authLayout'
+import AuthLayout from '../../layouts/authLayout/AuthLayout'
 import { Link } from 'react-router-dom'
 
 function RegisterScreen() {

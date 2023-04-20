@@ -11,7 +11,9 @@ function AuthLayout({ children }) {
                     </div>
                     <div className='col-5 p-3 pe-5'>
                         <div className='text-center'><img src="/images/logo.png" width="252px" /></div>
+
                         {children}
+
                     </div>
                 </div>
             </div>

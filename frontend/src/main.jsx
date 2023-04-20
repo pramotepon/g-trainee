@@ -8,6 +8,10 @@ import RegisterScreen from './screens/authScreen/RegisterScreen';
 
 const router = createBrowserRouter([
   {
+    path: '/',
+    element: <App />
+  },
+  {
     path: '/login',
     element: <LoginScreen />
   },
