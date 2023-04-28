@@ -1,5 +1,43 @@
+@import "./root.css";
+* {
+  font-family: 'Kanit', sans-serif;
+}
 html, body{
   width: 100%;
   height: 100%;
   overflow: hidden;
+}
+html{
+  scroll-behavior: smooth;
+}
+/* Background */
+.my-bg-primary {
+  background-color: var(--green-blue);
+}
+.my-bg-secondary {
+  background-color: var(--green-blue-soft);
+}
+.my-bg-blue {
+  background-color: var(--blue);
+}
+.my-bg-blue-soft {
+  background-color: var(--blue-soft);
+}
+/* Text color */
+.my-text-primary {
+  background-color: var(--green-blue);
+}
+.my-text-secondary {
+  background-color: var(--green-blue-soft);
+}
+.my-text-blue {
+  background-color: var(--blue);
+}
+.my-text-blue-soft {
+  background-color: var(--blue-soft);
+}
+
+.my-btn-danger{
+  background-color: #FF3366;
+  color: white;
 }
