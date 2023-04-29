@@ -7,6 +7,7 @@ const DashboardScreen = () => {
   return (
     <DashboardLayout>
       <ActivityCard />
+      <h1>test</h1>
     </DashboardLayout>  
   )
 }
