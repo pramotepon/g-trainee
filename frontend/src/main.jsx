@@ -5,6 +5,7 @@ import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import LoginScreen from './screens/authScreen/LoginScreen';
 import RegisterScreen from './screens/authScreen/RegisterScreen';
+import DashboardScreen from './screens/authScreen/DashboardScreen';
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
   {
     path: '/register',
     element: <RegisterScreen />
+  },
+  {
+    path: '/dashboard',
+    element: <DashboardScreen />
   }
 ])
 
