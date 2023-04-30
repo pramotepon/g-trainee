@@ -1,15 +1,16 @@
-import React from 'react'
+import React from "react";
 
 const ActivityCard = () => {
   return (
-    <div class="history-card">                                 
-                <img src="#" alt="" class = "idol" />
-                <div>
-                    <h2>Title</h2>
-                    <p>Description</p>
-                </div>
-            </div>
-  )
-}
+    <div className="current-card">
+      <img src="#" alt="" className="idol" />
+      <div>
+        <h2>Title</h2>
+        <p>Description</p>
+        {/* <!-- <img src="#" alt=""> --> */}
+      </div>
+    </div>
+  );
+};
 
-export default ActivityCard
+export default ActivityCard;
