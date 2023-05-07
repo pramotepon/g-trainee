@@ -7,6 +7,7 @@ import LoginScreen from './screens/authScreen/LoginScreen';
 import RegisterScreen from './screens/authScreen/RegisterScreen';
 import DashboardScreen from './screens/authScreen/DashboardScreen';
 import DashboardLayout from './layouts/dashboardLayout/DashboardLayout';
+import ActivityDetail from './components/ActivityDetail';
 
 const router = createBrowserRouter([
   {
@@ -27,7 +28,11 @@ const router = createBrowserRouter([
   },
   {
     path: '/dashboardlayout',
-    element: <DashboardLayout />
+    element: <DashboardLayout />,
+  },
+  {
+    path: '/activitydetail',
+    element: <ActivityDetail />
   },
 ])
 
