@@ -40,3 +40,9 @@ html{
   background-color: #FF3366;
   color: white;
 }
+
+.my-top-right-button {
+  position: absolute;
+  right: 12px;
+  top: 8px;
+}
