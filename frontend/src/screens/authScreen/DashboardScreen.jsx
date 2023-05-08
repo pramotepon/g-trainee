@@ -25,7 +25,7 @@ const DashboardScreen = () => {
       img: "https://www.khaosodenglish.com/wp-content/uploads/2018/11/14498299351449830078l.jpg",
     },
   ];
-  const [activity, setActivity] = useState(mockActivities);
+  const [activity, setActivity] = useState('');
 
   let newActivity;
   let cardActivity;
